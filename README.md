@@ -15,6 +15,7 @@ Praticar estruturas básicas de programação em Java, incluindo arrays, laços 
 - Condicional if/else: para verificar se o aluno foi aprovado (média maior ou igual a 7).
 - Entrada de dados com Scanner: para capturar as notas via terminal.
 - Operações matemáticas: soma e cálculo de média.
+- While com break para validar entrada de dados.
 
 
 # Funcionalidades

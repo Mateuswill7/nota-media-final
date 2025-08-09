@@ -8,8 +8,8 @@ public class NotaMedia {
 
         for (int i = 0; i < notas.length; i++){
             while (true) {
-                System.out.println("Digite a nota do aluno no bimestre " + (i + 1) + ": ");    
-                double nota = sc.nextDouble();
+                System.out.printf("Digite a nota do aluno no " + (i + 1) + "º Bimestre: ");    
+                double nota = Double.parseDouble(sc.next().replace(",", "."));
 
             if (nota >= 0 && nota <= 10) {
                 notas[i] = nota;
